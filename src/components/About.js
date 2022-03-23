@@ -9,7 +9,7 @@ function About() {
       <img
         className="float-sm-start rounded mt-2 mt-sm-1 me-sm-3 pb-2"
         id="profile-pic"
-        src="/images/bilal-raza-headshot.png"
+        src={process.env.PUBLIC_URL + "/images/bilal-raza-headshot.png"}
         alt="A Headshot of Me, Bilal Raza"
       ></img>
       <p>

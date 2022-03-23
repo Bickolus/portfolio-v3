@@ -7,7 +7,7 @@ function Resume() {
         My Skills (Resume)
       </h3>
 
-      <a href="bilal-raza-resume.pdf" target='_blank'>
+      <a href="bilal-raza-resume.pdf" target="_blank" rel="noreferrer">
         <h4>Here is a link to my resume, in PDF form.</h4>
       </a>
     </div>

@@ -22,10 +22,15 @@ function Contact() {
       <div className="container mw-100 px-0">
         <div className="row w-100 mx-0">
           <section className="col-sm p-0 mb-3 me-sm-2">
-            <a className="card" href="https://github.com/Bickolus">
+            <a
+              className="card"
+              href="https://github.com/Bickolus"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="card-img img-fluid w-100"
-                src="/images/github-thumbnail.png"
+                src={process.env.PUBLIC_URL + "/images/github-thumbnail.png"}
                 alt="GitHub Logo"
               ></img>
               <div className="card-img-overlay d-flex align-items-center site-link">
@@ -40,10 +45,12 @@ function Contact() {
             <a
               className="card"
               href="https://www.linkedin.com/in/bilal-raza-73418b80"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 className="card-img img-fluid w-100"
-                src="/images/linkedin-thumbnail.png"
+                src={process.env.PUBLIC_URL + "/images/linkedin-thumbnail.png"}
                 alt="LinkedIn Logo"
               ></img>
               <div className="card-img-overlay d-flex align-items-center site-link">
@@ -57,10 +64,15 @@ function Contact() {
 
         <div className="row w-100 mx-0">
           <section className="col-sm p-0 mb-3 me-sm-2">
-            <a className="card" href="https://www.facebook.com/Bickolus">
+            <a
+              className="card"
+              href="https://www.facebook.com/Bickolus"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="card-img img-fluid w-100"
-                src="/images/facebook-thumbnail.png"
+                src={process.env.PUBLIC_URL + "/images/facebook-thumbnail.png"}
                 alt="Facebook Logo"
               ></img>
               <div className="card-img-overlay d-flex align-items-center site-link">
@@ -72,10 +84,15 @@ function Contact() {
           </section>
 
           <section className="col-sm p-0 mb-3 me-sm-2">
-            <a className="card" href="https://twitter.com/Bicko_Blicko">
+            <a
+              className="card"
+              href="https://twitter.com/Bicko_Blicko"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="card-img img-fluid w-100"
-                src="/images/twitter-thumbnail.png"
+                src={process.env.PUBLIC_URL + "/images/twitter-thumbnail.png"}
                 alt="Twitter Logo"
               ></img>
               <div className="card-img-overlay d-flex align-items-center site-link">
