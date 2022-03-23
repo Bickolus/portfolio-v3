@@ -1,0 +1,122 @@
+:root {
+  --dark-gray: #222629;
+  --medium-gray: #363636;
+  --light-gray: #6c747a;
+  --white: rgb(224, 224, 224);
+  --green: #67962e;
+  --yellow-green: #86c232;
+  --site-border-radius: 0px 30px 0px 0px;
+  --site-border-radius2: 0px 30px 0px 30px;
+  --site-border: solid 5px #86c232;
+}
+
+* {
+  font-size: 1.1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--medium-gray);
+  background-repeat: no-repeat;
+  font-family: "Abel", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+main section {
+  width: 100%;
+}
+
+.bg-dark-gray {
+  background-color: var(--dark-gray);
+}
+
+.bg-yellow-green {
+  background-color: var(--yellow-green);
+}
+
+.border-yellow-green {
+  border-color: var(--yellow-green) !important;
+}
+
+.icon-size {
+  font-size: 6rem;
+}
+.text-dark-gray {
+  color: var(--dark-gray);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-yellow-green {
+  color: var(--yellow-green);
+}
+
+.card a {
+  background-color: var(--dark-gray);
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background-color: var(--yellow-green);
+}
+
+.nav-link {
+  color: var(--yellow-green) !important;
+}
+
+.nav-link:hover {
+  color: var(--white) !important;
+}
+
+#profile-pic {
+  width: 100%;
+}
+
+.site-link:hover {
+  background-color: var(--yellow-green);
+  transition: 0.3s;
+}
+
+/* When the browser's width becomes 576px, this is what happens: */
+@media screen and (min-width: 576px) {
+  #profile-pic {
+    max-width: 290px;
+    max-height: auto;
+  }
+}
+
+/* When the browser's width becomes 768px, this is what happens: */
+@media screen and (min-width: 768px) {
+  main section {
+    width: 735px;
+  }
+}
+
+/* Border sizing styles */
+.border-3 {
+  border-width: 3px !important;
+}
+
+.border-2 {
+  border-width: 2px !important;
+}
