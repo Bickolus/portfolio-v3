@@ -84,6 +84,10 @@ main section {
   color: var(--yellow-green) !important;
 }
 
+.active {
+  color: var(--white) !important;
+}
+
 .nav-link:hover {
   color: var(--white) !important;
 }
