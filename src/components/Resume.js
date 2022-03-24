@@ -8,7 +8,7 @@ function Resume() {
       </h3>
 
       <h5>
-        These are some things I'm pretty proficient at:
+        These are some things I'm proficient in:
       </h5>
 
       <ul class="list-group list-group-flush m-2">
