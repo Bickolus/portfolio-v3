@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
   return (
     <header className="navbar-expand navbar-dark bg-dark-gray py-0 px-0 px-sm-2 px-md-3 mx-0 border-bottom border-yellow-green border-2">
       <div className="container mw-100">
@@ -13,24 +13,49 @@ function Header() {
           <div className="col-12 col-sm-6 my-auto">
             <nav className="navbar-nav d-flex justify-content justify-content-sm-end">
               <a
-                className="nav-item nav-link border-end border-yellow-green py-0 my-auto"
                 href="#about-me"
+                onClick={() => handlePageChange("About")}
+                // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                className={
+                  currentPage === "About"
+                    ? "nav-item nav-link active border-end border-yellow-green py-0 my-auto"
+                    : "nav-item nav-link border-end border-yellow-green py-0 my-auto"
+                }
               >
                 About Me
               </a>
               <a
-                className="nav-item nav-link border-end border-yellow-green py-0 my-auto"
                 href="#projects"
+                onClick={() => handlePageChange("Project")}
+                className={
+                  currentPage === "Project"
+                    ? "nav-item nav-link active border-end border-yellow-green py-0 my-auto"
+                    : "nav-item nav-link border-end border-yellow-green py-0 my-auto"
+                }
               >
                 My Projects
               </a>
               <a
-                className="nav-item nav-link border-end border-yellow-green py-0 my-auto"
                 href="#resume"
+                onClick={() => handlePageChange("Resume")}
+                className={
+                  currentPage === "Resume"
+                    ? "nav-item nav-link active border-end border-yellow-green py-0 my-auto"
+                    : "nav-item nav-link border-end border-yellow-green py-0 my-auto"
+                }
               >
                 My Skills
               </a>
-              <a className="nav-item nav-link" href="#contact-me">
+              <a
+                href="#contact-me"
+                onClick={() => handlePageChange("Contact")}
+                className={
+                  currentPage === "Contact"
+                    ? "nav-item nav-link active"
+                    : "nav-item nav-link"
+                }
+              >
                 Contact Me
               </a>
             </nav>
