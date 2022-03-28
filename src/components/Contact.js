@@ -17,32 +17,50 @@ function Contact() {
         My phone number: <a href="tel:647-627-2027">647-627-2027</a>
       </h5>
       <br></br>
-      <h5>
-        If you wanna shoot me a message:
-      </h5>
-            <form className="was-validated mb-3">
+      <h5>If you wanna shoot me a message:</h5>
+      <form className="was-validated mb-3">
+        <div className="form-group mb-2">
+          <label for="nameFormControlInput">Name</label>
+          <input
+            type="text"
+            className="form-control"
+            id="nameFormControlInput"
+            placeholder="e.g. John Doe"
+            required
+          ></input>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
 
-                <div className="form-group mb-2">
-                    <label for="nameFormControlInput">Name</label>
-                    <input type="text" className="form-control" id="nameFormControlInput" placeholder="e.g. John Doe" required></input>
-                    <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                
-                <div className="form-group mb-2">
-                    <label for="emailFormControlInput">Email</label>
-                    <input type="email" className="form-control" id="emailFormControlInput" placeholder="e.g. example@domain.com" required></input>
-                    <div class="invalid-feedback">Please fill out this field and use a valid email.</div>
-                </div>
+        <div className="form-group mb-2">
+          <label for="emailFormControlInput">Email</label>
+          <input
+            type="email"
+            className="form-control"
+            id="emailFormControlInput"
+            placeholder="e.g. example@domain.com"
+            required
+          ></input>
+          <div class="invalid-feedback">
+            Please fill out this field and use a valid email.
+          </div>
+        </div>
 
-                <div className="form-group mb-2">
-                    <label for="messageFormControlTextarea">Message</label>
-                    <textarea className="form-control" id="messageFormControlTextarea" rows="6" required></textarea>
-                    <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                <br></br>
-                <button type="submit" className="btn bg-yellow-green text-light">Submit</button>
-            </form>
-            <br></br>
+        <div className="form-group mb-2">
+          <label for="messageFormControlTextarea">Message</label>
+          <textarea
+            className="form-control"
+            id="messageFormControlTextarea"
+            rows="6"
+            required
+          ></textarea>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <br></br>
+        <button type="submit" className="btn bg-yellow-green text-light">
+          Submit
+        </button>
+      </form>
+      <br></br>
 
       <h5>Here are the links to my social media accounts:</h5>
 

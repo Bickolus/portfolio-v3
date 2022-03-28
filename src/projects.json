@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Pick & Mix",
+    "image": "/images/picknmix-thumbnail.png",
+    "repo": "https://github.com/MpAlfano/Grocery-Store",
+    "demo": "https://pick-n-mix.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "name": "Social Network API Code",
+    "image": "/images/snac-thumbnail.png",
+    "repo": "https://github.com/Bickolus/snac",
+    "demo": "https://www.youtube.com/watch?v=qkkJSwJtiyE"
+  },
+  {
+    "id": 3,
+    "name": "Billboard",
+    "image": "/images/billboard-thumbnail.png",
+    "repo": "https://github.com/nevan-dsouza/billboard",
+    "demo": "https://nevan-dsouza.github.io/billboard/"
+  },
+  {
+    "id": 4,
+    "name": "The Employee-Tracking App",
+    "image": "/images/teta-thumbnail.png",
+    "repo": "https://github.com/Bickolus/teta",
+    "demo": "https://user-images.githubusercontent.com/96181899/155039447-a97dbedd-e3a4-46d2-b1d9-960d79f6fda0.mp4"
+  },
+  {
+    "id": 5,
+    "name": "Blog for Tech Stuff",
+    "image": "/images/bfts-thumbnail.png",
+    "repo": "https://github.com/Bickolus/bfts",
+    "demo": "https://blog-for-tech-stuff.herokuapp.com/"
+  },
+  {
+    "id": 6,
+    "name": "Weather Dashboard",
+    "image": "/images/weather-thumbnail.png",
+    "repo": "https://github.com/Bickolus/weather-dashboard",
+    "demo": "https://bickolus.github.io/weather-dashboard/"
+  }
+]
